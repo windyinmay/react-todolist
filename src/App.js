@@ -20,8 +20,9 @@ function App() {
   })
   return (
     <div className="App">
+
+      <Todolist/>
       <themeContext.Provider value={context}>
-        <Todolist/>
         <Header />
       </themeContext.Provider>
     </div>
